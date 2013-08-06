@@ -1,0 +1,26 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+
+
+<f:section name="main">
+
+<f:flashMessages />
+
+<div class="video-wrapper" style="width: {width}px;">
+	<div class="video-container" style="padding-bottom: {paddingBottom}%;">
+		<iframe class="tx_jhsimpleyoutube" width="{width}" height="{height}" src="http://www.youtube.com/embed/{id}{playerParameters}" {allowfullscreen}></iframe>
+	</div>
+</div>
+
+</f:section>

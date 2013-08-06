@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_jhsimpleyoutube_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi_flexform.sheetOptions">Video settings</label>
+			<label index="pi_flexform.sheetOptions.videoId">Youtube VIDEO_ID</label>
+			<label index="pi_flexform.sheetOptions.videoWidth">Video width</label>
+			<label index="pi_flexform.sheetOptions.videoHeight">Video height</label>
+			<label index="pi_flexform.sheetOptions.videoRel">Show suggested videos when the video finishes</label>
+			<label index="pi_flexform.sheetOptions.videoAllowfullscreen">Allow fullscreen</label>
+			<label index="pi_flexform.sheetOptions.html5">Use html5 to embed video</label>
+			<label index="pi_flexform.sheetOptions.html5.typoscript">Defined in TypoScript</label>
+			<label index="pi_flexform.sheetOptions.html5.yes">Yes</label>
+			<label index="pi_flexform.sheetOptions.html5.no">No</label>
+			<label index="pi_flexform.sheetOptions.videoStart">Start video at</label>
+			<label index="pi_flexform.sheetOptions.videoEnd">Stop video at (not for html5)</label>
+			<label index="pi_flexform.sheetOptions.videoCustomParameters">Custom video parameters</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi_flexform.sheetOptions">Video Einstellungen</label>
+			<label index="pi_flexform.sheetOptions.videoId">Youtube VIDEO_ID</label>
+			<label index="pi_flexform.sheetOptions.videoWidth">Video Breite</label>
+			<label index="pi_flexform.sheetOptions.videoHeight">Video Höhe</label>
+			<label index="pi_flexform.sheetOptions.videoRel">Nach Ende des Videos vorgeschlagene Videos anzeigen</label>
+			<label index="pi_flexform.sheetOptions.videoAllowfullscreen">Vollbildmodus erlauben</label>
+			<label index="pi_flexform.sheetOptions.html5">Video mit html5 einbinden</label>
+			<label index="pi_flexform.sheetOptions.html5.typoscript">Im TypoScript definiert</label>
+			<label index="pi_flexform.sheetOptions.html5.yes">Ja</label>
+			<label index="pi_flexform.sheetOptions.html5.no">Nein</label>
+			<label index="pi_flexform.sheetOptions.videoStart">Video starten bei</label>
+			<label index="pi_flexform.sheetOptions.videoEnd">Video stoppen bei (nicht für html5)</label>
+			<label index="pi_flexform.sheetOptions.videoCustomParameters">Benutzerdefinierte Video-Parameter</label>
+		</languageKey>
+	</data>
+</T3locallang>
