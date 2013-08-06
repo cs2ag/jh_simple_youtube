@@ -1,0 +1,22 @@
+plugin.tx_jhsimpleyoutube {
+	view {
+		# cat=plugin.jh_simple_youtube/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:jh_simple_youtube/Resources/Private/Templates/
+		# cat=plugin.jh_simple_youtube/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:jh_simple_youtube/Resources/Private/Partials/
+		# cat=plugin.jh_simple_youtube/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:jh_simple_youtube/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.jh_simple_youtube//a; type=string; label=Default storage PID
+		storagePid =
+	}
+	settings {
+		# cat=plugin.jh_simple_youtube/dims/010; type=int+; label=default width of video in px
+		width=560
+		# cat=plugin.jh_simple_youtube/dims/011; type=int+; label=default height of video in px
+		height=315
+		# cat=plugin.jh_simple_youtube/enable/020; type=boolean; label=embed video with html5 by default
+		html5 = 1
+	}
+}

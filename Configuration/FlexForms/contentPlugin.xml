@@ -1,0 +1,128 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.id>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoId</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>30</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.id>
+					<settings.flex_width>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoWidth</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>4</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.flex_width>
+					<settings.flex_height>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoHeight</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>4</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.flex_height>
+					<settings.flex_html5>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.html5</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.html5.typoscript</numIndex>
+										<numIndex index="1">-1</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.html5.yes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.html5.no</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.flex_html5>
+					<settings.rel>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoRel</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.rel>
+					<settings.allowfullscreen>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoAllowfullscreen</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</settings.allowfullscreen>
+					<!--
+					<settings.start>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoStart</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>6</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.start>
+					-->
+					<!--
+					<settings.end>
+						<TCEforms>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoEnd</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>6</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.end>
+					-->
+					<settings.flex_customParameters>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:jh_simple_youtube/Resources/Private/Language/locallang_contentPlugin.xml:pi_flexform.sheetOptions.videoCustomParameters</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<max>200</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.flex_customParameters>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
